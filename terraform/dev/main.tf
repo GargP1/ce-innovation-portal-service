@@ -36,7 +36,7 @@ locals {
   aurora_postgresql_mode                  = false
   aurora_postgresql_engine                = "aurora-postgresql"
   aurora_postgresql_engine_mode           = "serverless" ## values `global`, `multimaster`, `parallelquery`, `provisioned`, `serverless`. Defaults to: `provisioned`
-  aurora_postgresql_engine_version        = "11.21"
+  aurora_postgresql_engine_version        = "11.18"
   aurora_postgresql_database_name         = "PortalDataStore"
   aurora_postgresql_username              = "portal_usr"
   aurora_postgresql_family                = "aurora-postgresql5.7" # DB parameter group
